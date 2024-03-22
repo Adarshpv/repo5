@@ -12,7 +12,9 @@ $(document).ready(function() {
         const apiKey = '65fe195b62e5f096754617bjs3795e8';
 
         // Geocode API request
-        const geocodeUrl = `https://maps.googleapis.com/maps/api/geocode/json?address=${location}&key=${apiKey}`;
+        const geocodeUrl = `https://geocode.maps.co/search?q=address&api_key=${apiKey}`;
+    
+        
 
         $.ajax({
             url: geocodeUrl,
