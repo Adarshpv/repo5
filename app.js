@@ -12,8 +12,7 @@ $(document).ready(function() {
         const apiKey = '65fe195b62e5f096754617bjs3795e8';
 
         // Geocode API request
-        const geocodeUrl = `https://geocode.maps.co/search?q=address&api_key=${apiKey}`;
-    
+        const geocodeUrl = `https://geocode.maps.co/search?q=address&api_key=65fe195b62e5f096754617bjs3795e8`;
         
 
         $.ajax({
